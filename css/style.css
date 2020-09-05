@@ -1,0 +1,1062 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/*Normal*/
+
+html{
+    overflow-x: hidden;
+}
+/*HEADER.....................................................*/
+header{
+    background: url(../img/background-1.png) no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+header .navbar{
+    background-color: #0B695B;
+    width: 100%;
+    margin-top: 1%;
+    position: fixed;
+    z-index: 9;
+}
+header .navbar .container .collapse ul .promociona{
+    margin-left: 60%;
+}
+header .navbar .container .collapse ul li a{
+    color: #f7f7f7;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+header .navbar .container .collapse ul li a:hover{
+    text-decoration: underline;
+}
+header .navbar .container .collapse ul li .caja{
+    background-color: #0B695B;
+}
+header .navbar .container .collapse ul li .caja a:hover{
+    background-color: #79D698;
+}
+header img{
+    position: fixed;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 150px;
+    z-index: 11;
+}
+header h6{
+    position: absolute;
+    text-align: center;
+    top: 140px;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+    font-size: 70px;
+    color: #0B695B;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+/*SECTION 2.............................................*/
+#section2 .container{
+    position: relative;
+}
+#section2 .container .caja2{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: #f7f7f7;
+    background-color: #0B695B;
+    max-width: 850px;
+    width: 100%;
+    position: absolute;
+    top: -200px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+#section2 .container .caja2 h1{
+    font-size: 70px;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+#section2 .container .caja2 #hey{
+    font-size: 30px;
+}
+#section2 .container .caja2 #joo{
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#section2 .container{
+    text-align: center;
+    padding-top: 250px;
+}
+#section2 .container a{
+    font-size: 60px;
+    padding: 20px 10px;
+    color: #0B695B;
+    font-family: 'Roboto Slab', serif;
+    border-style: solid;
+    border-color: #0B695B;
+    border-width: 5px;
+}
+#section2 .container a:hover{
+    background-color: #79D698;
+}
+
+
+
+
+/*SECTION 3...............................................*/
+#section3{
+    width: 100%;
+    margin-top: 200px;
+}
+#section3 ul{
+    width: 100%;
+}
+#section3 ul li{
+    width: 30%;
+    margin-left: 3%;
+}
+#section3 .container .boton1{
+    background: url(../img/boton1.png);
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0B695B;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    color: #0B695B;
+}
+#section3 .active{
+    animation-name: luz;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes luz{
+    0%{
+        border-color: #0B695B;
+        color: #0B695B;
+    }
+    50%{
+        border-color: aqua;
+        color: aqua;
+    }
+    100%{
+        border-color: brown;
+        color: brown;
+    }
+}
+#section3 .container .boton2{
+    background: url(../img/boton2.png);
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0B695B;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    color: #0B695B;
+}
+#section3 .container .boton3{
+    background: url(../img/boton3.png);
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #0B695B;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    color: #0B695B;
+}
+
+
+
+
+/*SECTION 4...................................................*/
+#section4{
+    margin-top: 150px;
+    background: url(../img/background-2.png);
+    background-position-x: center;
+    width: 100%;
+    background-size: cover;
+    height: 1050px;
+    margin-bottom: 50px;
+    position: relative;
+}
+#section4 .container{
+    background-color: #0B695B;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: -100px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+#section4 .container .row .col-8 .tab-content .info{
+    color: #f7f7f7;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Roboto Slab', serif;
+}
+#section4 .container .row .col-8 .tab-content .info h3{
+    font-size: 60px;
+}
+#section4 .container .row .col-8 .tab-content .info p{
+    padding-top: 30px;
+    font-size: 25px;
+}
+#section4 .container .row .col-8 .tab-content .bajar{
+    height: 600px;
+    overflow-y: scroll;
+}
+#section4 .container .row .col-4 img{
+    width: 100%;
+    margin-top: 130px;
+}
+
+
+
+
+/*SECTION 5...................................................*/
+#section5{
+    position: relative;
+}
+#section5 .container{
+    border-style: solid;
+    border-color: #0B695B;
+    border-width: 5px;
+    width: 100%;
+}
+#section5 img{
+    position: absolute;
+    left: 0;
+    max-width: 800px;
+    top: 100px;
+}
+#section5 .row .col-6{
+    color: #0B695B;
+    font-family: 'Roboto Slab', serif;
+}
+#section5 .row .col-6 h4{
+    font-size: 50px;
+}
+#section5 .row .col-6 p{
+    font-size: 30px;
+    padding: 30px 10px;
+    text-align: justify;
+}
+
+
+
+/*SECTION 6...................................................*/
+#section6 .container-fluid .row .col-3 .circle{
+    width: 60%;
+    border-color: #0B695B;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    animation-name: tilt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes tilt{
+    0%{
+        background-color: #f7f7f7;
+    }
+    50%{
+        background-color: #79D698;
+    }
+    100%{
+        background-color: bisque;
+    }
+}
+#section6 .container-fluid .row .col-3 .circle p{
+    font-size: 35px;
+    text-align: center;
+    color: #0B695B;
+    padding: 30px;
+}
+
+
+
+
+
+
+/*SECTION 7...................................................*/
+#section7{
+    position: relative;
+}
+#section7 .row{
+    border-style: solid;
+    border-color: #0B695B;
+    border-width: 5px;
+    width: 100%;
+}
+#section7 img{
+    position: absolute;
+    right: 0;
+    top: 100px;
+    max-width: 800px;
+    margin-bottom: 100px;
+}
+#section7 .row .col-6{
+    color: #0B695B;
+    font-family: 'Roboto Slab', serif;
+}
+#section7 .row .col-6 h4{
+    font-size: 50px;
+}
+#section7 .row .col-6 p{
+    font-size: 30px;
+    padding: 30px 10px;
+    text-align: justify;
+}
+
+
+
+
+
+
+/*SECTION 8...................................................*/
+#section8 .container-fluid .row{
+    width: 100%;
+}
+#section8 .container-fluid .row .col-6 .accordion{
+    margin-top: 50px;
+}
+#section8 .container-fluid .row .col-6 .accordion .card{
+    border-style: solid;
+    border-color: #0B695B;
+    border-width: 5px;
+    margin-top: 20px;
+}
+#section8 .container-fluid .row .col-6 .accordion .card .card-header h2 button{
+    font-size: 30px;
+    color: #79D698;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+#section8 .container-fluid .row .col-6 .accordion .card .information{
+    font-size: 30px;
+    color: #0B695B;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+
+/*SECTION 9...................................................*/
+#section9{
+    background: url(../img/background-3.png);
+    width: 100%;
+    height: 525px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+#section9 h3{
+    font-size: 70px;
+    color: #0B695B;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#section9 .caja3{
+    border-style: solid;
+    border-color: #0B695B;
+    border-width: 5px;
+    border-radius: 20px;
+    width: 100%;
+}
+#section9 .caja3 p{
+    font-size: 40px;
+    color: #0B695B;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+
+
+/*SECTION 10...................................................*/
+#section10{
+    width: 100%;
+    margin-top: 100px;
+}
+#section10 .container .row .col-4 img{
+    width: 40%;
+}
+#section10 .container .row .col-4 h2{
+    text-align: center;
+    font-size: 40px;
+    color: #0B695B;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 30px;
+}
+
+
+
+
+/*SECTION 11...................................................*/
+#section11{
+    width: 100%;
+    margin-top: 100px;
+}
+#section11 .container .caja5{
+    width: 100%;
+    color: #f7f7f7;
+    background-color: #0B695B;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#section11 .container .caja5 h3{
+    font-size: 70px;
+}
+#section11 .container .slider{
+   width: 100%;
+}
+#section11 .container .slider .carousel .carousel-inner .carousel-item img{
+    width: 100%;
+}
+#section11 .container .slider .carousel .carousel-inner .carousel-item .saiv{
+    top: 0px;
+}
+#section11 .container .slider .carousel .carousel-inner .carousel-item .lhdb{
+    top: 150px;
+}
+#section11 .container .slider .carousel .carousel-inner .carousel-item .carousel-caption h5{
+    color: #0B695B;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+#section11 .container .slider .carousel .carousel-inner .carousel-item .carousel-caption p{
+    color: #0B695B;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+}
+#section11 .container .slider .carousel .atras{
+    left: -50px;
+}
+#section11 .container .slider .carousel .adelante{
+    right: -50px;
+}
+
+
+
+/*SECTION 12...................................................*/
+footer{
+    width: 100%;
+    margin-top: 100px;
+    background-color: #0B695B;
+    padding-bottom: 150px;
+}
+footer .container-fluid{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+footer .container-fluid .row .col-4 button{
+    width: 300px;
+    height: 125px;
+    background-color: #79D698;
+    color: #f7f7f7;
+    border-style: solid;
+    border-width: 5px;
+    font-size: 60px;
+    margin-top: 70px;
+    font-family: 'Roboto Slab', serif;
+    border-color: #f7f7f7;
+}
+footer .container-fluid .row .col-4 .dropright .dropdown-menu{
+    background-color: #79D698;
+}
+footer .container-fluid .row .col-4 .dropright .dropdown-menu a{
+    color: #f7f7f7;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+}
+footer .container-fluid .row .col-4 .dropright .dropdown-menu a:hover{
+    background-color: #0B695B;
+}
+footer .container-fluid .row .col-8{
+    padding-top: 170px;
+}
+footer .container-fluid .row .col-8 .row .col-3 a img{
+    width: 50%;
+}
+
+
+
+
+/* MODALS */
+#contactoModal .modal-content{
+    width: 100%;
+    margin-top: 30%;
+    border-style: solid;
+    border-color: #79D698;
+    border-width: 5px;
+    border-radius: 20px;
+    background-color: #0B695B;
+    padding: 30px 20px;
+    color: #f7f7f7;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+#contactoModal .modal-content .modal-header{
+    border-bottom-style: solid;
+    border-bottom-color: #0B695B;
+    border-bottom-width: 5px;
+}
+#contactoModal .modal-content .modal-header form label{
+    font-size: 30px;
+}
+#contactoModal .modal-content .modal-header form .caja8{
+    background-color: #79D698;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+#contactoModal .modal-content .modal-header form .caja8 input{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#contactoModal .modal-content .modal-header form textarea{
+    width: 100%;
+    height: 200px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #79D698;
+    color: #0B695B;
+    font-size: 20px;
+}
+#contactoModal .modal-content .modal-header form textarea::placeholder{
+    color: #0B695B;
+    font-size: 30px;
+}
+#contactoModal .modal-content .modal-header form button{
+    margin-left: 30%;
+    margin-top: 10px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #79D698;
+    background-color: #0B695B;
+    color: #f7f7f7;
+}
+
+
+
+
+
+
+/*Responsive PORTATILES*/
+@media screen and (max-width:1800px) and (min-width:1440px){
+    #section5 img{
+        max-width: 600px;
+    }
+    #section6 .container-fluid .row .col-3 .circle p{
+        font-size: 25px;
+    }
+    #section7 img{
+        max-width: 600px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .card-header h2 button{
+        font-size: 25px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .information{
+        font-size: 20px;
+    }
+    #section9 .caja3 p{
+        font-size: 30px;
+    }
+    #section10 .container .row .col-4 h2{
+        font-size: 30px;
+    }
+    #section11 .container .caja5 h3{
+        font-size: 50px;
+    }
+}
+
+
+
+
+/*Responsive MINIPORTATIL*/
+@media screen and (max-width:1439px) and (min-width:1020px){
+    body{
+        overflow-x: hidden;
+    }
+    header .navbar .container .collapse ul .promociona{
+        margin-left: 40%;
+    }
+    #section2 .container .caja2{
+        max-width: 600px;
+    }
+    #section2 .container .caja2 h1{
+        font-size: 50px;
+    }
+    #section2 .container .caja2 #hey{
+        font-size: 20px;
+    }
+    #section2 .container .caja2 #joo{
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    #section2 .container a{
+        font-size: 50px;
+    }
+    #section3 .container .boton1{
+        font-size: 30px;
+    }
+    #section3 .container .boton2{
+        font-size: 30px;
+    }
+    #section3 .container .boton3{
+        font-size: 30px;
+    }
+    #section4 .container{
+        height: 400px;
+    }
+    #section4 .container .row .col-8 .tab-content .info h3{
+        font-size: 40px;
+    }
+    #section4 .container .row .col-8 .tab-content .info p{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    #section4 .container .row .col-8 .tab-content .bajar{
+        height: 400px;
+    }
+    #section5 img{
+        max-width: 400px;
+    }
+    #section5 .row .col-6 h4{
+        font-size: 40px;
+    }
+    #section5 .row .col-6 p{
+        font-size: 20px;
+    }
+    #section6 .container-fluid .row .col-3 .circle{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    #section6 .container-fluid .row .col-3 .circle p{
+        font-size: 15px;
+    }
+    #section7 .row .col-6 h4{
+        font-size: 40px;
+    }
+    #section7 .row .col-6 p{
+        font-size: 20px;
+    }
+    #section7 img{
+        max-width: 400px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .card-header h2 button{
+        font-size: 20px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .information{
+        font-size: 15px;
+    }
+    #section9 h3{
+        font-size: 50px;
+    }
+    #section9 .caja3 p{
+        font-size: 25px;
+    }
+    #section10 .container .row .col-4 h2{
+        font-size: 20px;
+    }
+    #section11 .container .caja5 h3{
+        font-size: 40px;
+    }
+    #section11 .container .slider .carousel .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 40px;
+    }
+    #section11 .container .slider .carousel .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 20px;
+    }
+    #section11 .container .slider .carousel .atras{
+        left: 0px;
+    }
+    #section11 .container .slider .carousel .adelante{
+        right: 0px;
+    }
+    footer .container-fluid .row .col-4 button{
+        width: 200px;
+        height: 100px;
+        font-size: 40px;
+    }
+}
+
+
+/*Responsive TABLET*/
+@media screen and (max-width:990px) and (min-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    header .navbar .container .collapse ul .promociona{
+        margin-left: 0%;
+    }
+    header .navbar .container .collapse ul li a{
+        font-size: 20px;
+    }
+    header .navbar .container .navbar-toggler{
+        width: 10%;
+        background-color: #f7f7f7;
+    }
+    header .navbar .container .navbar-toggler img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    header img{
+        width: 100px;
+        height: 100px;
+    }
+    header h6{
+        font-size: 50px;
+        top: 100px;
+    }
+    #section2 .container .caja2{
+        max-width: 600px;
+    }
+    #section2 .container .caja2 h1{
+        font-size: 50px;
+    }
+    #section2 .container .caja2 #hey{
+        font-size: 20px;
+    }
+    #section2 .container .caja2 #joo{
+        font-size: 20px;
+        padding-bottom: 40px;
+    }
+    #section2 .container a{
+        font-size: 50px;
+    }
+    #section3 .container .boton1{
+        font-size: 30px;
+    }
+    #section3 .container .boton2{
+        font-size: 30px;
+    }
+    #section3 .container .boton3{
+        font-size: 30px;
+    }
+    #section4 .container{
+        height: 400px;
+    }
+    #section4 .container .row .col-8 .tab-content .info h3{
+        font-size: 40px;
+    }
+    #section4 .container .row .col-8 .tab-content .info p{
+        padding-top: 20px;
+        font-size: 20px;
+    }
+    #section4 .container .row .col-8 .tab-content .bajar{
+        height: 400px;
+    }
+    #section5 img{
+        max-width: 350px;
+    }
+    #section5 .row .col-6 h4{
+        font-size: 40px;
+    }
+    #section5 .row .col-6 p{
+        font-size: 20px;
+    }
+    #section6 .container-fluid .row .col-3 .circle{
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    #section6 .container-fluid .row .col-3 .circle p{
+        font-size: 10px;
+        padding: 10px;
+    }
+    #section7 .row .col-6 h4{
+        font-size: 40px;
+    }
+    #section7 .row .col-6 p{
+        font-size: 20px;
+    }
+    #section7 img{
+        max-width: 350px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion{
+        margin-top: 20px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .card-header h2 button{
+        font-size: 15px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .information{
+        font-size: 10px;
+    }
+    #section9 h3{
+        font-size: 50px;
+    }
+    #section9 .caja3 p{
+        font-size: 25px;
+    }
+    #section10 .container .row .col-4 h2{
+        font-size: 20px;
+    }
+    #section11 .container .caja5 h3{
+        font-size: 40px;
+    }
+    #section11 .container .slider .carousel .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 40px;
+    }
+    #section11 .container .slider .carousel .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 20px;
+    }
+    #section11 .container .slider .carousel .atras{
+        left: 0px;
+    }
+    #section11 .container .slider .carousel .adelante{
+        right: 0px;
+    }
+    footer .container-fluid .row .col-4 button{
+        width: 150px;
+        height: 80px;
+        font-size: 30px;
+    }
+    footer .container-fluid .row .col-4 .dropright .dropdown-menu a{
+        font-size: 20px;
+    }
+} 
+
+
+
+/*Responsive SMARTPHONE*/
+@media screen and (max-width:520px) and (min-width:320px){
+    body{
+        overflow-x: hidden;
+    }
+    header .navbar .container .collapse ul li a{
+        font-size: 8px;
+    }
+    header .navbar .container .collapse ul .promociona{
+        margin-left: 0%;
+    }
+    header .navbar .container .navbar-toggler{
+        width: 20%;
+        background-color: #f7f7f7;
+    }
+    header .navbar .container .navbar-toggler img{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    header img{
+        width: 50px;
+        height: 50px;
+    }
+    header h6{
+        font-size: 30px;
+        top: 60px;
+    }
+    #section2 .container .caja2{
+        max-width: 300px;
+    }
+    #section2 .container .caja2 h1{
+        font-size: 30px;
+    }
+    #section2 .container .caja2 #hey{
+        font-size: 15px;
+    }
+    #section2 .container .caja2 #joo{
+        font-size: 15px;
+        padding-bottom: 30px;
+    }
+    #section2 .container{
+        padding-top: 180px;
+    }
+    #section2 .container a{
+        font-size: 20px;
+    }
+    #section3{
+        margin-top: 100px;
+    }
+    #section3 .container .boton1{
+        font-size: 8px;
+        padding-top: 20px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        height: 60%;
+    }
+    #section3 .container .boton2{
+        font-size: 8px;
+        padding-top: 20px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        height: 60%;
+    }
+    #section3 .container .boton3{
+        font-size: 8px;
+        padding-top: 20px;
+        font-weight: 600;
+        padding-bottom: 20px;
+        height: 60%;
+    }
+    #section4{
+        height: 525px;
+    }
+    #section4 .container{
+        height: 300px;
+    }
+    #section4 .container .row .col-8 .tab-content .info h3{
+        font-size: 25px;
+    }
+    #section4 .container .row .col-8 .tab-content .info p{
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    #section4 .container .row .col-8 .tab-content .bajar{
+        height: 300px;
+    }
+    #section5 img{
+        max-width: 150px;
+    }
+    #section5 .row .col-6 h4{
+        font-size: 20px;
+    }
+    #section5 .row .col-6 p{
+        font-size: 8px;
+    }
+    #section6 .container-fluid .row .col-3 .circle{
+        margin-top: 5px;
+        width: 100%;
+        margin-bottom: 10px;
+        border-width: 2px;
+    }
+    #section6 .container-fluid .row .col-3 .circle p{
+        font-size: 6px;
+        padding: 8px;
+    }
+    #section7 .row .col-6 h4{
+        font-size: 20px;
+    }
+    #section7 .row .col-6 p{
+        font-size: 8px;
+    }
+    #section7 img{
+        max-width: 150px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion{
+        margin-top: 10px;
+        width: 250px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .card-header h2 button{
+        font-size: 8px;
+    }
+    #section8 .container-fluid .row .col-6 .accordion .card .information{
+        font-size: 6px;
+    }
+    #section9{
+        height: 300px;
+    }
+    #section9 h3{
+        font-size: 20px;
+    }
+    #section9 .caja3 p{
+        font-size: 8px;
+    }
+    #section10{
+        margin-top: 20px;
+    }
+    #section10 .container .row .col-4 h2{
+        font-size: 10px;
+    }
+    #section11{
+        margin-top: 50px;
+    }
+    #section11 .container .caja5 h3{
+        font-size: 25px;
+    }
+    #section11 .container .slider .carousel .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 20px;
+    }
+    #section11 .container .slider .carousel .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 10px;
+    }
+    #section11 .container .slider .carousel .carousel-inner .carousel-item .lhdb{
+        top: 40px;
+    }
+    #section11 .container .slider .carousel .atras{
+        left: 0px;
+    }
+    #section11 .container .slider .carousel .atras img{
+        width: 50px;
+    }
+    #section11 .container .slider .carousel .adelante{
+        right: 0px;
+    }
+    #section11 .container .slider .carousel .adelante img{
+        width: 50px;
+    }
+    footer{
+        padding-bottom: 50px;
+        margin-top: 50px;
+    }
+    footer .container-fluid{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    footer .container-fluid .row .col-4 button{
+        width: 80px;
+        height: 40px;
+        border-width: 2px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    footer .container-fluid .row .col-4 .dropright .dropdown-menu a{
+        font-size: 10px;
+    }
+    footer .container-fluid .row .col-8{
+        padding-top: 130px;
+    }
+    footer .container-fluid .row .col-8 .row .col-3 a img{
+        width: 200%;
+    }
+
+
+    #contactoModal .modal-content{
+        font-size: 15px;
+        padding: 0 0;
+    }
+    #contactoModal .modal-content .modal-header{
+        border-bottom-width: 0px;
+    }
+    #contactoModal .modal-content .modal-header form label{
+        font-size: 20px;
+    }
+    #contactoModal .modal-content .modal-header form textarea::placeholder{
+        font-size: 20px;
+    }
+    #contactoModal .modal-content .modal-header form button{
+        margin-left: 30%;
+        margin-top: 10px;
+        padding: 10px 5px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #79D698;
+        background-color: #0B695B;
+        color: #f7f7f7;
+    }
+    
+}
+
